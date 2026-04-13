@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0088)file:///C:/Users/Inderpal%20S%20Makhija/Downloads/attendance_dashboard_export%20(2).html -->
+<!-- saved from url=(0111)file:///D:/ULFH/Reporting%20data/DASHboard%20data/Attendance%20Dashboard%20%C2%B7%20Feb%202026_files/index.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -191,14 +191,14 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
     <h1>Attendance <span>Dashboard</span></h1>
     <p>Norm-Based Report · Inderpal Singh Makhija Zone</p>
   </div>
-  <div class="period-badge" id="period-display">Custom Upload · 08 Apr 2026</div>
+  <div class="period-badge" id="period-display">Custom Upload · 13 Apr 2026</div>
 </div>
 
 <div class="upload-strip">
   <label>🔄 Update Data:</label>
   <input type="file" id="xlsx-upload" accept=".xlsx,.xls">
   <button onclick="loadFile()">Load File</button>
-  <span id="upload-status">✅ Loaded 9978 records</span>
+  <span id="upload-status">✅ Loaded 10650 records</span>
 </div>
 
 <div class="filter-bar">
@@ -221,7 +221,7 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
   <option value="Avinash Singh">Avinash Singh</option><option value="Rajashri De">Rajashri De</option><option value="Sachin Sapra">Sachin Sapra</option><option value="Vacant Tamil Nadu">Vacant Tamil Nadu</option></select>
   <select id="filter-asm" onchange="applyFilters()">
     <option value="">All ASMs</option>
-  <option value="Ajeet Kumar">Ajeet Kumar</option><option value="Anup Kumar Roy">Anup Kumar Roy</option><option value="Ashish Saxena">Ashish Saxena</option><option value="Avinash Singh">Avinash Singh</option><option value="Balvantkumar Thakordas Rana">Balvantkumar Thakordas Rana</option><option value="Boobalan G">Boobalan G</option><option value="Diwakar Pandey">Diwakar Pandey</option><option value="Gulshan Kumar">Gulshan Kumar</option><option value="Inderpal Singh Makhija">Inderpal Singh Makhija</option><option value="Jitendra Chaturvedi">Jitendra Chaturvedi</option><option value="Manoj Jena">Manoj Jena</option><option value="Mitesh Kumar">Mitesh Kumar</option><option value="Pradeep Parnami">Pradeep Parnami</option><option value="Rajashri De">Rajashri De</option><option value="Rajkumar V">Rajkumar V</option><option value="Sachin Sapra">Sachin Sapra</option><option value="Sachin Suri">Sachin Suri</option><option value="Sanjay Kumar Rajak">Sanjay Kumar Rajak</option><option value="Santosh Kumar Dubey">Santosh Kumar Dubey</option><option value="Sourav Kumar Jha">Sourav Kumar Jha</option><option value="Sreevardhan Namboothiri S">Sreevardhan Namboothiri S</option><option value="Test Manager">Test Manager</option><option value="Touhid Pasha M">Touhid Pasha M</option><option value="Vacant Karnataka 1">Vacant Karnataka 1</option><option value="Vacant Uttar pradesh">Vacant Uttar pradesh</option><option value="Vemula Venkata Chalam">Vemula Venkata Chalam</option><option value="Vishal Ganeshrao Kalyani">Vishal Ganeshrao Kalyani</option></select>
+  <option value="Ajeet Kumar">Ajeet Kumar</option><option value="Anup Kumar Roy">Anup Kumar Roy</option><option value="Ashish Saxena">Ashish Saxena</option><option value="Avinash Singh">Avinash Singh</option><option value="Balvantkumar Thakordas Rana">Balvantkumar Thakordas Rana</option><option value="Boobalan G">Boobalan G</option><option value="Diwakar Pandey">Diwakar Pandey</option><option value="Gulshan Kumar">Gulshan Kumar</option><option value="Jitendra Chaturvedi">Jitendra Chaturvedi</option><option value="Manoj Jena">Manoj Jena</option><option value="Mitesh Kumar">Mitesh Kumar</option><option value="Pradeep Parnami">Pradeep Parnami</option><option value="Rajashri De">Rajashri De</option><option value="Rajkumar V">Rajkumar V</option><option value="Sachin Sapra">Sachin Sapra</option><option value="Sachin Suri">Sachin Suri</option><option value="Sanjay Kumar Rajak">Sanjay Kumar Rajak</option><option value="Santosh Kumar Dubey">Santosh Kumar Dubey</option><option value="Sourav Kumar Jha">Sourav Kumar Jha</option><option value="Sreevardhan Namboothiri S">Sreevardhan Namboothiri S</option><option value="Test Manager">Test Manager</option><option value="Touhid Pasha M">Touhid Pasha M</option><option value="Vacant Karnataka 1">Vacant Karnataka 1</option><option value="Vacant Uttar pradesh">Vacant Uttar pradesh</option><option value="Vemula Venkata Chalam">Vemula Venkata Chalam</option><option value="Vishal Ganeshrao Kalyani">Vishal Ganeshrao Kalyani</option></select>
   <select id="filter-level" onchange="applyFilters()">
     <option value="">All Levels</option>
     <option value="L1Position">ESM (L1)</option>
@@ -254,12 +254,12 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
 </div>
 
 <div class="kpis" id="kpi-container">
-    <div class="kpi"><div class="kpi-label">Records</div><div class="kpi-value blue">4,972</div><div class="kpi-sub">filtered rows</div></div>
-    <div class="kpi"><div class="kpi-label">Present</div><div class="kpi-value green">1116</div><div class="kpi-sub">23.4% rate</div></div>
-    <div class="kpi"><div class="kpi-label">Half Day</div><div class="kpi-value yellow">91</div><div class="kpi-sub">norm-based</div></div>
-    <div class="kpi"><div class="kpi-label">Absent</div><div class="kpi-value red">3340</div><div class="kpi-sub">incl. calc. absent</div></div>
-    <div class="kpi"><div class="kpi-label">Total TC</div><div class="kpi-value purple">17,083</div><div class="kpi-sub">total calls</div></div>
-    <div class="kpi"><div class="kpi-label">Net Sales</div><div class="kpi-value orange">₹39980.3K</div><div class="kpi-sub">period total</div></div>
+    <div class="kpi"><div class="kpi-label">Records</div><div class="kpi-value blue">791</div><div class="kpi-sub">filtered rows</div></div>
+    <div class="kpi"><div class="kpi-label">Present</div><div class="kpi-value green">261</div><div class="kpi-sub">33.6% rate</div></div>
+    <div class="kpi"><div class="kpi-label">Half Day</div><div class="kpi-value yellow">9</div><div class="kpi-sub">norm-based</div></div>
+    <div class="kpi"><div class="kpi-label">Absent</div><div class="kpi-value red">435</div><div class="kpi-sub">incl. calc. absent</div></div>
+    <div class="kpi"><div class="kpi-label">Total TC</div><div class="kpi-value purple">3,489</div><div class="kpi-sub">total calls</div></div>
+    <div class="kpi"><div class="kpi-label">Net Sales</div><div class="kpi-value orange">₹6981.1K</div><div class="kpi-sub">period total</div></div>
   </div>
 
 <div class="main">
@@ -269,7 +269,7 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
         <button class="view-tab active" onclick="setView(&#39;detail&#39;)">Daily Detail</button>
         <button class="view-tab" onclick="setView(&#39;summary&#39;)">Employee Summary</button>
       </div>
-      <span class="record-count" id="record-count">4972 records</span>
+      <span class="record-count" id="record-count">791 records</span>
       <div class="export-bar">
         <button class="btn-export btn-export-detail" onclick="exportDetailExcel()" title="Export current filtered daily detail view">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM8.5 19l-3-3h1.8v-4h2.4v4H11.5l-3 3zm6.5-6H9v-1.5h6V13zm0-3H9V8.5h6V10z"></path></svg>
@@ -308,11 +308,11 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
             </tr>
           </thead>
           <tbody id="detail-tbody">
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">01 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH200&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Peerasab R D">Peerasab R D</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+      <td class="mono">Davagiri</td>
       <td><span class="badge badge-red">Absent</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
       <td class="mono">—</td>
@@ -324,395 +324,395 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
       <td><span class="badge badge-red">Absent</span></td>
       <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">02 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+    <tr onclick="showEmpDetail(&#39;UFH217&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Rajkumar V">Rajkumar V</td>
+      <td><span class="badge badge-purple">ASM</span></td>
+      <td class="mono">Chennai</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:12</td>
-      <td class="mono">22:22</td>
-      <td class="mono">07 : 11</td>
-      <td class="mono">07 : 06</td>
-      <td style="font-weight:700;color:var(--accent)">11</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,045</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">03 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:21</td>
-      <td class="mono">21:49</td>
-      <td class="mono">09 : 15</td>
-      <td class="mono">08 : 59</td>
+      <td class="mono">09:33</td>
+      <td class="mono">21:18</td>
+      <td class="mono">08 : 50</td>
+      <td class="mono">08 : 09</td>
       <td style="font-weight:700;color:var(--accent)">10</td>
       <td style="font-weight:700;color:var(--green)">1</td>
       <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹17,357</td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">04 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH199&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Sunil Kumar T">Sunil Kumar T</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+      <td class="mono">Bangalore</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;FU_EMPL_39446604&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Vacant Karnataka 1">Vacant Karnataka 1</td>
+      <td><span class="badge badge-purple">ASM</span></td>
+      <td class="mono">—</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH233&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Vemula Venkata Chalam">Vemula Venkata Chalam</td>
+      <td><span class="badge badge-purple">ASM</span></td>
+      <td class="mono">Hyderabad</td>
+      <td><span class="badge badge-gray">OtherActivity</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Collection and primary and secondary fallow up ">Collection and primary and secondary fallow up </td>
+      <td class="mono">12:26</td>
+      <td class="mono">21:02</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH198&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Ankit Kumar Verma">Ankit Kumar Verma</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Bhagalpur</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:28</td>
-      <td class="mono">22:39</td>
-      <td class="mono">10 : 06</td>
-      <td class="mono">09 : 49</td>
-      <td style="font-weight:700;color:var(--accent)">11</td>
+      <td class="mono">09:58</td>
+      <td class="mono">21:10</td>
+      <td class="mono">10 : 02</td>
+      <td class="mono">03 : 59</td>
+      <td style="font-weight:700;color:var(--accent)">10</td>
       <td style="font-weight:700;color:var(--green)">1</td>
       <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹43,329</td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,297</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">05 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH133&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Md Salman Khurshid">Md Salman Khurshid</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+      <td class="mono">Patna</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">10:46</td>
+      <td class="mono">20:21</td>
+      <td class="mono">07 : 22</td>
+      <td class="mono">03 : 34</td>
+      <td style="font-weight:700;color:var(--accent)">11</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH288&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Ravikanth Burman">Ravikanth Burman</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Ranchi</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">10:34</td>
+      <td class="mono">20:33</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH310&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Abdus Samad Khan">Abdus Samad Khan</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Bareilly</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH246&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Chandra Mohan Mehta">Chandra Mohan Mehta</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Dehradun</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">10:02</td>
+      <td class="mono">21:37</td>
+      <td class="mono">09 : 35</td>
+      <td class="mono">05 : 47</td>
+      <td style="font-weight:700;color:var(--accent)">9</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;FU_EMPL_40873077&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Manish Negi">Manish Negi</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Meerut</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH173&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Nafees Usmani">Nafees Usmani</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Agra</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">11:30</td>
+      <td class="mono">23:37</td>
+      <td class="mono">03 : 57</td>
+      <td class="mono">02 : 11</td>
+      <td style="font-weight:700;color:var(--accent)">8</td>
+      <td style="font-weight:700;color:var(--green)">2</td>
+      <td><span class="badge badge-yellow">HalfDay</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹24,427</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH261&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Rohit Singh">Rohit Singh</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">—</td>
+      <td><span class="badge badge-purple">Leave</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Leave ">Leave </td>
       <td class="mono">10:35</td>
-      <td class="mono">22:49</td>
-      <td class="mono">08 : 13</td>
-      <td class="mono">07 : 38</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹17,802</td>
+      <td class="mono">10:35</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-purple">Leave</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">06 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+    <tr onclick="showEmpDetail(&#39;UFH045&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Balvantkumar Thakordas Rana">Balvantkumar Thakordas Rana</td>
+      <td><span class="badge badge-purple">ASM</span></td>
+      <td class="mono">Surat</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:39</td>
-      <td class="mono">22:32</td>
-      <td class="mono">08 : 11</td>
-      <td class="mono">08 : 03</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
+      <td class="mono">10:41</td>
+      <td class="mono">20:06</td>
+      <td class="mono">07 : 16</td>
+      <td class="mono">00 : 49</td>
+      <td style="font-weight:700;color:var(--accent)">6</td>
+      <td style="font-weight:700;color:var(--green)">3</td>
       <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,111</td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">07 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH277&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Brij Mathur">Brij Mathur</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+      <td class="mono">—</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:31</td>
-      <td class="mono">22:46</td>
-      <td class="mono">07 : 45</td>
-      <td class="mono">07 : 14</td>
+      <td class="mono">09:41</td>
+      <td class="mono">20:01</td>
+      <td class="mono">08 : 43</td>
+      <td class="mono">04 : 48</td>
+      <td style="font-weight:700;color:var(--accent)">11</td>
+      <td style="font-weight:700;color:var(--green)">1</td>
+      <td><span class="badge badge-green">Present</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹19,414</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH241&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Dipak Saraf">Dipak Saraf</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Pune</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">10:09</td>
+      <td class="mono">21:59</td>
+      <td class="mono">07 : 40</td>
+      <td class="mono">02 : 55</td>
+      <td style="font-weight:700;color:var(--accent)">11</td>
+      <td style="font-weight:700;color:var(--green)">2</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹14,798</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH242&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Jitendra Chaturvedi">Jitendra Chaturvedi</td>
+      <td><span class="badge badge-purple">ASM</span></td>
+      <td class="mono">Mumbai</td>
+      <td><span class="badge badge-yellow">JointWorking</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">10:25</td>
+      <td class="mono">21:15</td>
+      <td class="mono">00 : 00</td>
+      <td class="mono">—</td>
+      <td style="font-weight:700;color:var(--accent)">0</td>
+      <td style="font-weight:700;color:var(--green)">0</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH341&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Lokesh Dayaram Patel">Lokesh Dayaram Patel</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Nagpur</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">11:38</td>
+      <td class="mono">—</td>
+      <td class="mono">07 : 00</td>
+      <td class="mono">02 : 24</td>
+      <td style="font-weight:700;color:var(--accent)">10</td>
+      <td style="font-weight:700;color:var(--green)">1</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹3,207</td>
+    </tr>
+    <tr onclick="showEmpDetail(&#39;UFH196&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Pankaj Charaya">Pankaj Charaya</td>
+      <td><span class="badge badge-blue">ESM</span></td>
+      <td class="mono">Sri Ganganagar</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">09:48</td>
+      <td class="mono">20:39</td>
+      <td class="mono">06 : 14</td>
+      <td class="mono">04 : 01</td>
       <td style="font-weight:700;color:var(--accent)">12</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
+      <td style="font-weight:700;color:var(--green)">2</td>
       <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,811</td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹64,463</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">08 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH284&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Pavan Kisangopal Bhutada">Pavan Kisangopal Bhutada</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-gray">WeeklyOff</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Weekly off Sunday ">Weekly off Sunday </td>
-      <td class="mono">12:16</td>
-      <td class="mono">12:16</td>
+      <td class="mono">Akola</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
       <td class="mono">00 : 00</td>
       <td class="mono">—</td>
       <td style="font-weight:700;color:var(--accent)">0</td>
       <td style="font-weight:700;color:var(--green)">0</td>
-      <td><span class="badge badge-gray">WeeklyOff</span></td>
+      <td><span class="badge badge-red">Absent</span></td>
       <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">09 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+    <tr onclick="showEmpDetail(&#39;UFH348&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Pradeep Parnami">Pradeep Parnami</td>
+      <td><span class="badge badge-purple">ASM</span></td>
+      <td class="mono">Jaipur</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">09:50</td>
-      <td class="mono">22:32</td>
-      <td class="mono">07 : 36</td>
-      <td class="mono">07 : 13</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
+      <td class="mono">10:06</td>
+      <td class="mono">—</td>
+      <td class="mono">05 : 50</td>
+      <td class="mono">05 : 24</td>
+      <td style="font-weight:700;color:var(--accent)">5</td>
       <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,755</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">10 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;FU_EMPL_40873998&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Sadanand Bodhankar">Sadanand Bodhankar</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:21</td>
-      <td class="mono">22:34</td>
-      <td class="mono">09 : 08</td>
-      <td class="mono">08 : 24</td>
-      <td style="font-weight:700;color:var(--accent)">14</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,543</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">11 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:27</td>
-      <td class="mono">22:17</td>
-      <td class="mono">09 : 38</td>
-      <td class="mono">08 : 56</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,395</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">12 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:11</td>
-      <td class="mono">22:19</td>
-      <td class="mono">08 : 44</td>
-      <td class="mono">08 : 31</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹41,607</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">13 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:14</td>
-      <td class="mono">22:31</td>
-      <td class="mono">09 : 05</td>
-      <td class="mono">08 : 56</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,048</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">14 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:13</td>
-      <td class="mono">22:17</td>
-      <td class="mono">08 : 37</td>
-      <td class="mono">08 : 11</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,483</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">15 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-gray">WeeklyOff</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title=" Sunday weekly off "> Sunday weekly off </td>
-      <td class="mono">11:09</td>
-      <td class="mono">11:09</td>
+      <td class="mono">Parvani</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
       <td class="mono">00 : 00</td>
       <td class="mono">—</td>
       <td style="font-weight:700;color:var(--accent)">0</td>
       <td style="font-weight:700;color:var(--green)">0</td>
-      <td><span class="badge badge-gray">WeeklyOff</span></td>
+      <td><span class="badge badge-red">Absent</span></td>
       <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">16 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH213&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Sagar Tanaji Mankar">Sagar Tanaji Mankar</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:08</td>
-      <td class="mono">22:43</td>
-      <td class="mono">07 : 17</td>
-      <td class="mono">06 : 51</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,304</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">17 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:18</td>
-      <td class="mono">22:33</td>
-      <td class="mono">08 : 45</td>
-      <td class="mono">08 : 31</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,693</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">18 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:12</td>
-      <td class="mono">22:43</td>
-      <td class="mono">08 : 45</td>
-      <td class="mono">08 : 34</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹24,964</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">19 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:27</td>
-      <td class="mono">22:23</td>
-      <td class="mono">08 : 03</td>
-      <td class="mono">07 : 47</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,964</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">20 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-purple">Leave</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Due to Bad health today I am on leave ">Due to Bad health today I am on leave </td>
-      <td class="mono">10:29</td>
-      <td class="mono">10:29</td>
+      <td class="mono">Pune</td>
+      <td><span class="badge badge-red">Absent</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Not Started">Not Started</td>
+      <td class="mono">—</td>
+      <td class="mono">—</td>
       <td class="mono">00 : 00</td>
       <td class="mono">—</td>
       <td style="font-weight:700;color:var(--accent)">0</td>
       <td style="font-weight:700;color:var(--green)">0</td>
-      <td><span class="badge badge-purple">Leave</span></td>
+      <td><span class="badge badge-red">Absent</span></td>
       <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">21 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH095&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Salim Mohammad">Salim Mohammad</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
+      <td class="mono">Jodhpur</td>
       <td><span class="badge badge-green">Retailing</span></td>
       <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:08</td>
-      <td class="mono">22:34</td>
-      <td class="mono">08 : 38</td>
-      <td class="mono">08 : 29</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
+      <td class="mono">10:01</td>
+      <td class="mono">20:19</td>
+      <td class="mono">06 : 11</td>
+      <td class="mono">02 : 53</td>
+      <td style="font-weight:700;color:var(--accent)">11</td>
       <td style="font-weight:700;color:var(--green)">1</td>
       <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹44,938</td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹15,158</td>
     </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">22 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
+    <tr onclick="showEmpDetail(&#39;UFH142&#39;)">
+      <td class="mono">01 Apr</td>
+      <td class="name" title="Sandip N Y">Sandip N Y</td>
       <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-gray">WeeklyOff</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="Sunday weekly off ">Sunday weekly off </td>
-      <td class="mono">10:26</td>
-      <td class="mono">10:26</td>
-      <td class="mono">00 : 00</td>
+      <td class="mono">Kolhapur</td>
+      <td><span class="badge badge-green">Retailing</span></td>
+      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
+      <td class="mono">11:40</td>
       <td class="mono">—</td>
-      <td style="font-weight:700;color:var(--accent)">0</td>
-      <td style="font-weight:700;color:var(--green)">0</td>
-      <td><span class="badge badge-gray">WeeklyOff</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">—</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">23 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:11</td>
-      <td class="mono">22:16</td>
-      <td class="mono">11 : 34</td>
-      <td class="mono">11 : 26</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹18,904</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">24 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">10:15</td>
-      <td class="mono">22:36</td>
-      <td class="mono">09 : 31</td>
-      <td class="mono">09 : 23</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹17,475</td>
-    </tr>
-    <tr onclick="showEmpDetail(&#39;UFH022&#39;)">
-      <td class="mono">25 Feb</td>
-      <td class="name" title="Abdul Rajak">Abdul Rajak</td>
-      <td><span class="badge badge-blue">ESM</span></td>
-      <td class="mono">Vijaywada</td>
-      <td><span class="badge badge-green">Retailing</span></td>
-      <td class="mono" style="max-width:120px;overflow:hidden;text-overflow:ellipsis" title="">—</td>
-      <td class="mono">09:39</td>
-      <td class="mono">22:54</td>
-      <td class="mono">08 : 14</td>
-      <td class="mono">07 : 52</td>
-      <td style="font-weight:700;color:var(--accent)">10</td>
-      <td style="font-weight:700;color:var(--green)">1</td>
-      <td><span class="badge badge-green">Present</span></td>
-      <td class="mono" style="font-weight:600;color:var(--orange)">₹16,304</td>
+      <td class="mono">06 : 58</td>
+      <td class="mono">02 : 50</td>
+      <td style="font-weight:700;color:var(--accent)">13</td>
+      <td style="font-weight:700;color:var(--green)">2</td>
+      <td><span class="badge badge-red">CalculatedAbsent</span></td>
+      <td class="mono" style="font-weight:600;color:var(--orange)">₹14,739</td>
     </tr></tbody>
         </table>
       </div>
       <div class="pagination">
         <button id="prev-btn" onclick="changePage(-1)" disabled="">← Prev</button>
-        <span class="page-info" id="page-info">1–25 of 4972</span>
+        <span class="page-info" id="page-info">1–25 of 791</span>
         <button id="next-btn" onclick="changePage(1)">Next →</button>
       </div>
     </div>
@@ -786,29 +786,29 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
       <div id="rsm-breakdown"><div class="rsm-row">
       <div style="flex:1">
         <div class="rsm-name">Avinash Singh</div>
-        <div class="rsm-meta">34 members</div>
-        <div class="rsm-bar-wrap"><div class="rsm-bar-fill" style="width:28.8265306122449%"></div></div>
+        <div class="rsm-meta">25 members</div>
+        <div class="rsm-bar-wrap"><div class="rsm-bar-fill" style="width:46.651785714285715%"></div></div>
       </div>
-      <div class="rsm-pct" style="color:var(--red)">29%</div>
+      <div class="rsm-pct" style="color:var(--red)">47%</div>
     </div><div class="rsm-row">
       <div style="flex:1">
         <div class="rsm-name">Sachin Sapra</div>
-        <div class="rsm-meta">30 members</div>
-        <div class="rsm-bar-wrap"><div class="rsm-bar-fill" style="width:30.695970695970697%"></div></div>
+        <div class="rsm-meta">28 members</div>
+        <div class="rsm-bar-wrap"><div class="rsm-bar-fill" style="width:38.50574712643678%"></div></div>
       </div>
-      <div class="rsm-pct" style="color:var(--red)">31%</div>
+      <div class="rsm-pct" style="color:var(--red)">39%</div>
     </div><div class="rsm-row">
       <div style="flex:1">
         <div class="rsm-name">Rajashri De</div>
-        <div class="rsm-meta">13 members</div>
-        <div class="rsm-bar-wrap"><div class="rsm-bar-fill" style="width:10.386819484240688%"></div></div>
+        <div class="rsm-meta">12 members</div>
+        <div class="rsm-bar-wrap"><div class="rsm-bar-fill" style="width:22.282608695652172%"></div></div>
       </div>
-      <div class="rsm-pct" style="color:var(--red)">10%</div>
+      <div class="rsm-pct" style="color:var(--red)">22%</div>
     </div></div>
     </div>
     <div class="card">
       <div class="section-title">Daily Trend — click cell to filter</div>
-      <div class="heatmap-grid" id="heatmap-grid"><div class="heatmap-cell" style="background:hsl(0.36585365853658536,72%,55%);opacity:1" title="01 Feb: 1P 0HD 62A / 82" onclick="filterByDate(&#39;01/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(5.853658536585366,72%,55%);opacity:1" title="02 Feb: 15P 2HD 61A / 82" onclick="filterByDate(&#39;02/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.402439024390244,72%,55%);opacity:1" title="03 Feb: 17P 1HD 58A / 82" onclick="filterByDate(&#39;03/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.317073170731707,72%,55%);opacity:1" title="04 Feb: 20P 0HD 58A / 82" onclick="filterByDate(&#39;04/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.231707317073171,72%,55%);opacity:1" title="05 Feb: 21P 3HD 53A / 82" onclick="filterByDate(&#39;05/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.134146341463414,72%,55%);opacity:1" title="06 Feb: 19P 1HD 57A / 82" onclick="filterByDate(&#39;06/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.7682926829268295,72%,55%);opacity:1" title="07 Feb: 16P 5HD 55A / 82" onclick="filterByDate(&#39;07/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0.18292682926829268,72%,55%);opacity:1" title="08 Feb: 0P 1HD 60A / 82" onclick="filterByDate(&#39;08/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10.609756097560975,72%,55%);opacity:1" title="09 Feb: 28P 2HD 47A / 82" onclick="filterByDate(&#39;09/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(12.439024390243901,72%,55%);opacity:1" title="10 Feb: 33P 2HD 43A / 82" onclick="filterByDate(&#39;10/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10.792682926829269,72%,55%);opacity:1" title="11 Feb: 28P 3HD 48A / 82" onclick="filterByDate(&#39;11/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.048780487804878,72%,55%);opacity:1" title="12 Feb: 20P 4HD 54A / 82" onclick="filterByDate(&#39;12/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10.24390243902439,72%,55%);opacity:1" title="13 Feb: 28P 0HD 51A / 82" onclick="filterByDate(&#39;13/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.414634146341465,72%,55%);opacity:1" title="14 Feb: 22P 2HD 53A / 82" onclick="filterByDate(&#39;14/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0,72%,55%);opacity:1" title="15 Feb: 0P 0HD 64A / 82" onclick="filterByDate(&#39;15/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.695121951219512,72%,55%);opacity:1" title="16 Feb: 26P 1HD 55A / 82" onclick="filterByDate(&#39;16/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.317073170731707,72%,55%);opacity:1" title="17 Feb: 19P 2HD 58A / 82" onclick="filterByDate(&#39;17/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.597560975609756,72%,55%);opacity:1" title="18 Feb: 22P 3HD 54A / 82" onclick="filterByDate(&#39;18/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.855421686746988,72%,55%);opacity:1" title="19 Feb: 23P 3HD 51A / 83" onclick="filterByDate(&#39;19/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.493975903614459,72%,55%);opacity:1" title="20 Feb: 22P 3HD 53A / 83" onclick="filterByDate(&#39;20/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.228915662650603,72%,55%);opacity:1" title="21 Feb: 19P 2HD 56A / 83" onclick="filterByDate(&#39;21/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0.3614457831325301,72%,55%);opacity:1" title="22 Feb: 1P 0HD 67A / 83" onclick="filterByDate(&#39;22/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.578313253012048,72%,55%);opacity:1" title="23 Feb: 25P 3HD 52A / 83" onclick="filterByDate(&#39;23/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.882352941176471,72%,55%);opacity:1" title="24 Feb: 26P 4HD 54A / 85" onclick="filterByDate(&#39;24/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.117647058823529,72%,55%);opacity:1" title="25 Feb: 22P 2HD 60A / 85" onclick="filterByDate(&#39;25/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.529411764705882,72%,55%);opacity:1" title="26 Feb: 26P 2HD 56A / 85" onclick="filterByDate(&#39;26/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.88235294117647,72%,55%);opacity:1" title="27 Feb: 19P 1HD 62A / 85" onclick="filterByDate(&#39;27/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6,72%,55%);opacity:1" title="28 Feb: 17P 0HD 64A / 85" onclick="filterByDate(&#39;28/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0,72%,55%);opacity:1" title="01 Mar: 0P 0HD 67A / 85" onclick="filterByDate(&#39;01/03/2026&#39;)"></div></div>
+      <div class="heatmap-grid" id="heatmap-grid"><div class="heatmap-cell" style="background:hsl(0.37037037037037035,72%,55%);opacity:0.25" title="01 Feb: 1P 0HD 61A / 81" onclick="filterByDate(&#39;01/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(5.925925925925926,72%,55%);opacity:0.25" title="02 Feb: 15P 2HD 60A / 81" onclick="filterByDate(&#39;02/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.481481481481481,72%,55%);opacity:0.25" title="03 Feb: 17P 1HD 57A / 81" onclick="filterByDate(&#39;03/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.4074074074074066,72%,55%);opacity:0.25" title="04 Feb: 20P 0HD 57A / 81" onclick="filterByDate(&#39;04/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.333333333333334,72%,55%);opacity:0.25" title="05 Feb: 21P 3HD 52A / 81" onclick="filterByDate(&#39;05/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.222222222222221,72%,55%);opacity:0.25" title="06 Feb: 19P 1HD 56A / 81" onclick="filterByDate(&#39;06/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.851851851851851,72%,55%);opacity:0.25" title="07 Feb: 16P 5HD 54A / 81" onclick="filterByDate(&#39;07/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0.18518518518518517,72%,55%);opacity:0.25" title="08 Feb: 0P 1HD 59A / 81" onclick="filterByDate(&#39;08/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10.74074074074074,72%,55%);opacity:0.25" title="09 Feb: 28P 2HD 46A / 81" onclick="filterByDate(&#39;09/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(12.592592592592592,72%,55%);opacity:0.25" title="10 Feb: 33P 2HD 42A / 81" onclick="filterByDate(&#39;10/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10.925925925925926,72%,55%);opacity:0.25" title="11 Feb: 28P 3HD 47A / 81" onclick="filterByDate(&#39;11/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.148148148148147,72%,55%);opacity:0.25" title="12 Feb: 20P 4HD 53A / 81" onclick="filterByDate(&#39;12/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10.37037037037037,72%,55%);opacity:0.25" title="13 Feb: 28P 0HD 50A / 81" onclick="filterByDate(&#39;13/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.518518518518517,72%,55%);opacity:0.25" title="14 Feb: 22P 2HD 52A / 81" onclick="filterByDate(&#39;14/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0,72%,55%);opacity:0.25" title="15 Feb: 0P 0HD 63A / 81" onclick="filterByDate(&#39;15/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.814814814814815,72%,55%);opacity:0.25" title="16 Feb: 26P 1HD 54A / 81" onclick="filterByDate(&#39;16/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.4074074074074066,72%,55%);opacity:0.25" title="17 Feb: 19P 2HD 57A / 81" onclick="filterByDate(&#39;17/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.703703703703704,72%,55%);opacity:0.25" title="18 Feb: 22P 3HD 53A / 81" onclick="filterByDate(&#39;18/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.963414634146341,72%,55%);opacity:0.25" title="19 Feb: 23P 3HD 50A / 82" onclick="filterByDate(&#39;19/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.597560975609756,72%,55%);opacity:0.25" title="20 Feb: 22P 3HD 52A / 82" onclick="filterByDate(&#39;20/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(7.317073170731707,72%,55%);opacity:0.25" title="21 Feb: 19P 2HD 55A / 82" onclick="filterByDate(&#39;21/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0.36585365853658536,72%,55%);opacity:0.25" title="22 Feb: 1P 0HD 66A / 82" onclick="filterByDate(&#39;22/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.695121951219512,72%,55%);opacity:0.25" title="23 Feb: 25P 3HD 51A / 82" onclick="filterByDate(&#39;23/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(10,72%,55%);opacity:0.25" title="24 Feb: 26P 4HD 53A / 84" onclick="filterByDate(&#39;24/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(8.214285714285715,72%,55%);opacity:0.25" title="25 Feb: 22P 2HD 59A / 84" onclick="filterByDate(&#39;25/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(9.642857142857144,72%,55%);opacity:0.25" title="26 Feb: 26P 2HD 55A / 84" onclick="filterByDate(&#39;26/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.964285714285714,72%,55%);opacity:0.25" title="27 Feb: 19P 1HD 61A / 84" onclick="filterByDate(&#39;27/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(6.071428571428571,72%,55%);opacity:0.25" title="28 Feb: 17P 0HD 63A / 84" onclick="filterByDate(&#39;28/02/2026&#39;)"></div><div class="heatmap-cell" style="background:hsl(0,72%,55%);opacity:0.25" title="01 Mar: 0P 0HD 66A / 84" onclick="filterByDate(&#39;01/03/2026&#39;)"></div></div>
       <div class="heatmap-labels" id="heatmap-labels"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span></div>
       <div class="heatmap-legend">
         <div class="heatmap-legend-item"><div class="heatmap-legend-dot" style="background:#059669"></div>Present</div>
@@ -826,133 +826,133 @@ td.mono{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px
     <div class="card">
       <div class="section-title">Top Net Sales ₹</div>
       <div class="bar-chart" id="top-sales"><div class="bar-row">
-    <div class="bar-label" title="Ajay Singh">Ajay Singh</div>
+    <div class="bar-label" title="Bhavya Tiwari">Bhavya Tiwari</div>
     <div class="bar-track"><div class="bar-fill" style="width:100%;background:#ea580c"></div></div>
-    <div class="bar-val">₹4109K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Deepak Sarwara">Deepak Sarwara</div>
-    <div class="bar-track"><div class="bar-fill" style="width:55.199203763632795%;background:#ea580c"></div></div>
-    <div class="bar-val">₹2268K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Rohit Singh">Rohit Singh</div>
-    <div class="bar-track"><div class="bar-fill" style="width:54.30897403060819%;background:#ea580c"></div></div>
-    <div class="bar-val">₹2231K</div>
+    <div class="bar-val">₹695K</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Nafees Usmani">Nafees Usmani</div>
-    <div class="bar-track"><div class="bar-fill" style="width:48.16051666652583%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1979K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Nishant Tyagi">Nishant Tyagi</div>
-    <div class="bar-track"><div class="bar-fill" style="width:47.02806651999059%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1932K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Raveendra Singh">Raveendra Singh</div>
-    <div class="bar-track"><div class="bar-fill" style="width:36.320794371405185%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1492K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Chandan Kumar V S">Chandan Kumar</div>
-    <div class="bar-track"><div class="bar-fill" style="width:33.81390659036458%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1389K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Manshu Maggo">Manshu Maggo</div>
-    <div class="bar-track"><div class="bar-fill" style="width:32.39507875112733%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1331K</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Sandip N Y">Sandip N</div>
-    <div class="bar-track"><div class="bar-fill" style="width:31.70348436553145%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1303K</div>
+    <div class="bar-track"><div class="bar-fill" style="width:55.515538605316394%;background:#ea580c"></div></div>
+    <div class="bar-val">₹386K</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Kukreja Jay Harilal">Kukreja Jay</div>
-    <div class="bar-track"><div class="bar-fill" style="width:30.4605347806851%;background:#ea580c"></div></div>
-    <div class="bar-val">₹1252K</div>
+    <div class="bar-track"><div class="bar-fill" style="width:51.42276286836809%;background:#ea580c"></div></div>
+    <div class="bar-val">₹358K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Md Salman Khurshid">Md Salman</div>
+    <div class="bar-track"><div class="bar-fill" style="width:46.51545261535121%;background:#ea580c"></div></div>
+    <div class="bar-val">₹323K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Sagar Papneja">Sagar Papneja</div>
+    <div class="bar-track"><div class="bar-fill" style="width:41.76612860880102%;background:#ea580c"></div></div>
+    <div class="bar-val">₹290K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Muzamil Yousuf">Muzamil Yousuf</div>
+    <div class="bar-track"><div class="bar-fill" style="width:40.62922017255263%;background:#ea580c"></div></div>
+    <div class="bar-val">₹283K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Chandan Kumar V S">Chandan Kumar</div>
+    <div class="bar-track"><div class="bar-fill" style="width:37.8420709651208%;background:#ea580c"></div></div>
+    <div class="bar-val">₹263K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Pankaj Charaya">Pankaj Charaya</div>
+    <div class="bar-track"><div class="bar-fill" style="width:35.98755117276635%;background:#ea580c"></div></div>
+    <div class="bar-val">₹250K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Anshuman Tiwari">Anshuman Tiwari</div>
+    <div class="bar-track"><div class="bar-fill" style="width:33.07791911877933%;background:#ea580c"></div></div>
+    <div class="bar-val">₹230K</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Salim Mohammad">Salim Mohammad</div>
+    <div class="bar-track"><div class="bar-fill" style="width:33.073590137424155%;background:#ea580c"></div></div>
+    <div class="bar-val">₹230K</div>
   </div></div>
     </div>
     <div class="card">
       <div class="section-title">Top TC Achievers</div>
       <div class="bar-chart" id="top-tc"><div class="bar-row">
-    <div class="bar-label" title="Deepak Kumar Ghand">Deepak Kumar</div>
+    <div class="bar-label" title="Sandip N Y">Sandip N</div>
     <div class="bar-track"><div class="bar-fill" style="width:100%;background:#2563eb"></div></div>
-    <div class="bar-val">566</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Chandan Kumar V S">Chandan Kumar</div>
-    <div class="bar-track"><div class="bar-fill" style="width:94.1696113074205%;background:#2563eb"></div></div>
-    <div class="bar-val">533</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Deepak Dhawan">Deepak Dhawan</div>
-    <div class="bar-track"><div class="bar-fill" style="width:89.39929328621908%;background:#2563eb"></div></div>
-    <div class="bar-val">506</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Brij Mathur">Brij Mathur</div>
-    <div class="bar-track"><div class="bar-fill" style="width:87.63250883392226%;background:#2563eb"></div></div>
-    <div class="bar-val">496</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Pankaj Charaya">Pankaj Charaya</div>
-    <div class="bar-track"><div class="bar-fill" style="width:87.27915194346289%;background:#2563eb"></div></div>
-    <div class="bar-val">494</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Ramesh Babu">Ramesh Babu</div>
-    <div class="bar-track"><div class="bar-fill" style="width:86.92579505300353%;background:#2563eb"></div></div>
-    <div class="bar-val">492</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Nishant Tyagi">Nishant Tyagi</div>
-    <div class="bar-track"><div class="bar-fill" style="width:86.57243816254417%;background:#2563eb"></div></div>
-    <div class="bar-val">490</div>
+    <div class="bar-val">117</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Raveendra Singh">Raveendra Singh</div>
-    <div class="bar-track"><div class="bar-fill" style="width:85.15901060070671%;background:#2563eb"></div></div>
-    <div class="bar-val">482</div>
+    <div class="bar-track"><div class="bar-fill" style="width:92.3076923076923%;background:#2563eb"></div></div>
+    <div class="bar-val">108</div>
   </div><div class="bar-row">
-    <div class="bar-label" title="Manshu Maggo">Manshu Maggo</div>
-    <div class="bar-track"><div class="bar-fill" style="width:83.3922261484099%;background:#2563eb"></div></div>
-    <div class="bar-val">472</div>
+    <div class="bar-label" title="Deepak Kumar Ghand">Deepak Kumar</div>
+    <div class="bar-track"><div class="bar-fill" style="width:92.3076923076923%;background:#2563eb"></div></div>
+    <div class="bar-val">108</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Brij Mathur">Brij Mathur</div>
+    <div class="bar-track"><div class="bar-fill" style="width:90.5982905982906%;background:#2563eb"></div></div>
+    <div class="bar-val">106</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Pankaj Charaya">Pankaj Charaya</div>
+    <div class="bar-track"><div class="bar-fill" style="width:89.74358974358975%;background:#2563eb"></div></div>
+    <div class="bar-val">105</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Naresh Kumar">Naresh Kumar</div>
+    <div class="bar-track"><div class="bar-fill" style="width:88.88888888888889%;background:#2563eb"></div></div>
+    <div class="bar-val">104</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Lokesh Dayaram Patel">Lokesh Dayaram</div>
+    <div class="bar-track"><div class="bar-fill" style="width:88.03418803418803%;background:#2563eb"></div></div>
+    <div class="bar-val">103</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Salim Mohammad">Salim Mohammad</div>
+    <div class="bar-track"><div class="bar-fill" style="width:88.03418803418803%;background:#2563eb"></div></div>
+    <div class="bar-val">103</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Sagar Papneja">Sagar Papneja</div>
+    <div class="bar-track"><div class="bar-fill" style="width:86.32478632478633%;background:#2563eb"></div></div>
+    <div class="bar-val">101</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Muzamil Yousuf">Muzamil Yousuf</div>
-    <div class="bar-track"><div class="bar-fill" style="width:83.21554770318022%;background:#2563eb"></div></div>
-    <div class="bar-val">471</div>
+    <div class="bar-track"><div class="bar-fill" style="width:85.47008547008546%;background:#2563eb"></div></div>
+    <div class="bar-val">100</div>
   </div></div>
     </div>
     <div class="card">
       <div class="section-title">Attendance % Ranking</div>
       <div class="bar-chart" id="att-ranking"><div class="bar-row">
     <div class="bar-label" title="Pankaj Charaya">Pankaj Charaya</div>
-    <div class="bar-track"><div class="bar-fill" style="width:95.91836734693877%;background:#059669"></div></div>
-    <div class="bar-val">96%</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Manshu Maggo">Manshu Maggo</div>
-    <div class="bar-track"><div class="bar-fill" style="width:93.87755102040816%;background:#059669"></div></div>
-    <div class="bar-val">94%</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Chandan Kumar V S">Chandan Kumar</div>
-    <div class="bar-track"><div class="bar-fill" style="width:89.2156862745098%;background:#059669"></div></div>
-    <div class="bar-val">89%</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Abdul Rajak">Abdul Rajak</div>
-    <div class="bar-track"><div class="bar-fill" style="width:84.61538461538461%;background:#059669"></div></div>
-    <div class="bar-val">85%</div>
-  </div><div class="bar-row">
-    <div class="bar-label" title="Deepak Dhawan">Deepak Dhawan</div>
-    <div class="bar-track"><div class="bar-fill" style="width:81.37254901960785%;background:#059669"></div></div>
-    <div class="bar-val">81%</div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%;background:#059669"></div></div>
+    <div class="bar-val">100%</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Salim Mohammad">Salim Mohammad</div>
-    <div class="bar-track"><div class="bar-fill" style="width:80.20833333333334%;background:#059669"></div></div>
-    <div class="bar-val">80%</div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%;background:#059669"></div></div>
+    <div class="bar-val">100%</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Brij Mathur">Brij Mathur</div>
-    <div class="bar-track"><div class="bar-fill" style="width:77.35849056603774%;background:#d97706"></div></div>
-    <div class="bar-val">77%</div>
+    <div class="bar-track"><div class="bar-fill" style="width:90.9090909090909%;background:#059669"></div></div>
+    <div class="bar-val">91%</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Manshu Maggo">Manshu Maggo</div>
+    <div class="bar-track"><div class="bar-fill" style="width:90%;background:#059669"></div></div>
+    <div class="bar-val">90%</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Muzamil Yousuf">Muzamil Yousuf</div>
+    <div class="bar-track"><div class="bar-fill" style="width:83.33333333333334%;background:#059669"></div></div>
+    <div class="bar-val">83%</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Ramesh Babu">Ramesh Babu</div>
-    <div class="bar-track"><div class="bar-fill" style="width:74.13793103448276%;background:#d97706"></div></div>
-    <div class="bar-val">74%</div>
+    <div class="bar-track"><div class="bar-fill" style="width:81.81818181818183%;background:#059669"></div></div>
+    <div class="bar-val">82%</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Naresh Kumar">Naresh Kumar</div>
+    <div class="bar-track"><div class="bar-fill" style="width:80%;background:#059669"></div></div>
+    <div class="bar-val">80%</div>
+  </div><div class="bar-row">
+    <div class="bar-label" title="Hitesh Dashrath Khandagale">Hitesh Dashrath</div>
+    <div class="bar-track"><div class="bar-fill" style="width:79.16666666666666%;background:#d97706"></div></div>
+    <div class="bar-val">79%</div>
   </div><div class="bar-row">
     <div class="bar-label" title="Nishant Tyagi">Nishant Tyagi</div>
-    <div class="bar-track"><div class="bar-fill" style="width:73.72881355932203%;background:#d97706"></div></div>
-    <div class="bar-val">74%</div>
+    <div class="bar-track"><div class="bar-fill" style="width:75%;background:#d97706"></div></div>
+    <div class="bar-val">75%</div>
   </div><div class="bar-row">
-    <div class="bar-label" title="Deepak Kumar Ghand">Deepak Kumar</div>
-    <div class="bar-track"><div class="bar-fill" style="width:72.88135593220339%;background:#d97706"></div></div>
-    <div class="bar-val">73%</div>
+    <div class="bar-label" title="Anshuman Tiwari">Anshuman Tiwari</div>
+    <div class="bar-track"><div class="bar-fill" style="width:75%;background:#d97706"></div></div>
+    <div class="bar-val">75%</div>
   </div></div>
     </div>
   </div>
